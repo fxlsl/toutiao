@@ -1,0 +1,11 @@
+@function r($val){
+	@return 0rem + $val/40;
+}
+
+@mixin bg($url){
+	background:{
+		image: url($url);
+		repeat: no-repeat;
+		size: contain;
+	}
+}
